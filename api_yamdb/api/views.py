@@ -14,15 +14,13 @@ from .mixins import CreateDestroyListGenericMixin
 from .permission import (
     IsAdminOrReadOnly,
     ReviewAndCommentPermission,
-    UserAdminOnly,
-)
+    UserAdminOnly,)
 from .serializers import (
     CategorySerializer, CommentSerializer,
     GenreSerializer, MyTokenObtainPairSerializer,
     ReviewSerializer, TitleCreateSerializer,
     TitleViewSerializer, UserAuthSerializer,
-    UserMeSerializer, UsersSerializer,
-)
+    UserMeSerializer, UsersSerializer,)
 from reviews.models import Review
 from titles.models import Category, Genre, Title
 from user.models import User
