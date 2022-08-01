@@ -9,10 +9,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
-DEBUG = False
+DEBUG = True
 
-# ALLOWED_HOSTS = ['51.250.109.201', '127.0.0.1', 'localhost']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['51.250.109.201', '127.0.0.1', 'localhost']
 
 
 INSTALLED_APPS = [
