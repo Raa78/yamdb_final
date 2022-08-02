@@ -14,12 +14,13 @@ from user.models import User
 
 from .filters import TitleFilter
 from .mixins import CreateDestroyListGenericMixin
-from .permission import (
-    IsAdminOrReadOnly, ReviewAndCommentPermission, UserAdminOnly)
-from .serializers import (
-    CategorySerializer, CommentSerializer, GenreSerializer,
-    MyTokenObtainPairSerializer, ReviewSerializer, TitleCreateSerializer,
-    TitleViewSerializer, UserAuthSerializer, UserMeSerializer, UsersSerializer)
+from .permission import (IsAdminOrReadOnly, ReviewAndCommentPermission,
+                         UserAdminOnly)
+from .serializers import (CategorySerializer, CommentSerializer,
+                          GenreSerializer, MyTokenObtainPairSerializer,
+                          ReviewSerializer, TitleCreateSerializer,
+                          TitleViewSerializer, UserAuthSerializer,
+                          UserMeSerializer, UsersSerializer)
 
 
 @api_view(['POST'])
